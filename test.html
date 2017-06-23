@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <style media="screen">
+    body {
+
+          background: #FFD34E;
+          color: #FFFAD5;
+          text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+          }
+ul {
+  list-style: none;
+}
+
+li {
+display: inline-block;
+margin: auto;
+background-color: #BD4932;
+}
+
+li a {
+display: block;
+padding: .5em 1em;
+color: #FFFAD5;
+}
+
+.nav-table {
+float:center;
+}
+
+/*.nav-inline-block {
+display: inline-block;
+}*/
+
+.orange {
+color: #BD4932;
+}
+
+</style>
+  </head>
+  <body>
+    <h1>Dynamic horizontal centering</h1>
+    <h2>With <span class="orange">display:table</span></h2>
+    <nav role='navigation' class="nav-table">
+      <ul>
+        <li><a href="#">Home</a></li><li>
+          <a href="#">About</a></li><li>
+          <a href="#">Clients</a></li><li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+
+    <h2>With <span class="orange">display: inline-block</span></h2>
+    <nav role='navigation' class="nav-inline-block">
+      <ul>
+        <li><a href="#">Home</a></li><li>
+          <a href="#">About</a></li><li>
+          <a href="#">Clients</a></li><li>
+          <a href="#">Contact Us</a>
+        </li>
+      </ul>
+    </nav>
+
+
+  </body>
+</html>
