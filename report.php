@@ -1,6 +1,5 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE>
+<html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
   <title>Aliens Abducted Me - Report an Abduction</title>
@@ -19,7 +18,7 @@
   $email = $_POST['email'];
   $other = $_POST['other'];
 
-  $to = 'owen@aliensabductedme.com';  $subject = 'Aliens Abducted Me - Abduction Report';  $msg = "$name was abducted $when_it_happened and was gone for $how_long.\n" .    "Number of aliens: $how_many\n" .
+  $to = 'gaowei.ienterprise@gmail.com';  $subject = 'Aliens Abducted Me - Abduction Report';  $msg = "$name was abducted $when_it_happened and was gone for $how_long.\n" .    "Number of aliens: $how_many\n" .
     "Alien description: $alien_description\n" .
     "What they did: $what_they_did\n" .    "Fang spotted: $fang_spotted\n" .
     "Other comments: $other";
