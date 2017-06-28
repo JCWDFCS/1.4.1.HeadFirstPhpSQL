@@ -20,10 +20,6 @@
     echo "The information about " . $email . " had been removed." ;
 
     mysqli_close($dbc);
-
-
-
-
-     ?>
+  ?>
   </body>
 </html>
